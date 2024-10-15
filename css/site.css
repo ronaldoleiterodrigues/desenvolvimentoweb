@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html { letter-spacing: 1.4px; font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal;}
+.poppins-black {font-family: "Poppins", sans-serif; font-weight: 900; font-style: normal;}
+
+.container {width: 96%; margin: 0 auto; padding: 0;}
+.container:after,.container:before { content: " "; display: table;}
+.container:after { clear: both;}
+/* box da minha grid */
+.box-1 {width: 6.818181818181818%;}
+.box-2 {width: 15.15151515151515%;}
+.box-3 {width: 23.48484848484848%;}
+.box-4 {width: 31.81818181818182%;}
+.box-5 {width: 40.15151515151515%;}
+.box-6 {width: 48.48484848484848%;}
+.box-7 {width: 56.81818181818182%;}
+.box-8 { width: 65.15151515151515%;}
+.box-9 {width: 73.48484848484848%;}
+.box-10 {width: 81.81818181818182%;}
+.box-11 {width: 90.15151515151515%;}
+.box-12 {width: 98.48484848484848%;}
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10,.box-11,.box-12 {
+    float: left;    margin-left: 0.7575757575757576%;  margin-right: 0.7575757575757576%;
+}
